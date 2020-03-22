@@ -4,6 +4,36 @@ The challenge of this project was to use synthetically generated data retrieved 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
+
+* [Deployment Guide Regarding .NET Core 2.1](https://github.com/goshdrive/FHIRworks_2020)
+* Create a [virtual environment](https://docs.python.org/3/library/venv.html) in the same folder as the requirements.txt file and activate the environment. The virtual environment is desirable, but not essential to run this web application.
+* Install all the required packages from requirements.txt on the terminal or command line using
+```
+pip install -r requirements.txt
+```
+
+### Deployment
+
+* Run the project by clicking run on the Flask.py or using the command in terminal/command line
+```
+python Flask.py
+```
+* Click on the link provided to access the web application
+```
+http://127.0.0.1:677/
+```
+* That's all. Enjoy!
+
+## Built With
+
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/quickstart/) - The web framework used
+* [FHIR-Parser](https://fhir-parser.readthedocs.io/en/latest/) - FHIR library for Python
+* [Docx](https://python-docx.readthedocs.io/en/latest/) - Python library for creating and updating Microsoft Word (.docx) files
+* [Bootstrap](https://getbootstrap.com/) - Open source toolkit for developing with HTML, CSS, and JS
+
+## Authors
+
+* **[Sabina-Maria Mitroi](https://github.com/MitroiSabina)** - *Initial work*

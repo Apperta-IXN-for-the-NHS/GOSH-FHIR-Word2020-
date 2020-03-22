@@ -1,6 +1,6 @@
 # Patient Health Records Generator (GOSH-FHIR-Word2020)
 
-The challenge of this project was to use synthetically generated data retrieved over FHIR from a GOSH gateway to generate documents prefilled with records. I developed a web application in Flask which uses a Python API for creating and updating Microsoft Word. I also used FHIR Parser which made it easier for me to access the information that I needed from HL7 FHIR.
+The challenge of this project was to use synthetically generated data retrieved over FHIR from a GOSH gateway to generate documents prefilled with records. I developed a web application in Flask which uses a Python API for creating and updating Microsoft Word. I also used FHIR Parser which made it easier for me to access the information that I needed from HL7 FHIR. The user can find any patient by using their unique identifier, forename and surname.
 
 ## Getting Started
 
@@ -34,8 +34,15 @@ http://127.0.0.1:677/
 * [Docx](https://python-docx.readthedocs.io/en/latest/) - Python library for creating and updating Microsoft Word (.docx) files
 * [Bootstrap](https://getbootstrap.com/) - Open source toolkit for developing with HTML, CSS, and JS
 
+## Acknowledgments
+
+* [Icon](https://commons.wikimedia.org/wiki/File:NHS-Logo.svg) used for the generated documents
+* [Video](https://www.youtube.com/watch?v=GVBP1ld0_n0) used for the background of the web application
+
 ## Authors
 
 * **[Sabina-Maria Mitroi](https://github.com/MitroiSabina)** - *Initial work*
+
+## Sneak Peak
 
 ![Web Application](FHIR/src/static/NHS.png)

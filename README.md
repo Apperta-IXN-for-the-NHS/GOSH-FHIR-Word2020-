@@ -1,6 +1,6 @@
 # Patient Health Records Generator (GOSH-FHIR-Word2020)
 
-The challenge of this project was to use synthetically generated data retrieved over FHIR from a GOSH gateway to generate documents prefilled with records. I developed a web application in Flask which uses a Python API for creating and updating Microsoft Word. I also used FHIR Parser which made it easier for me to access the information that I needed from HL7 FHIR. The user can find any patient by using their unique identifier, forename and surname. When the user presses 'Create a document' the file will appear in the folder FHIR. You can use the files(Forename.txt, Surname.txt and Unique_identifier.txt) provided in the example folder to test the web application.
+The challenge of this project was to use synthetically generated data retrieved over FHIR from a GOSH gateway to generate documents prefilled with records. I developed a web application in Flask which uses a Python API for creating and updating Microsoft Word. I also used FHIR Parser which made it easier for me to access the information that I needed from HL7 FHIR. The user can find any patient by using their unique identifier, forename and surname. When the user presses 'Create a document' the file will appear in the folder FHIR. You can use the files (Forename.txt, Surname.txt and Unique_identifier.txt) provided in the example folder to test the web application.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* [Deployment Guide Regarding .NET Core 2.1](https://github.com/goshdrive/FHIRworks_2020)
+* [Deployment Guide](https://github.com/goshdrive/FHIRworks_2020) regarding .NET Core 2.1
 * Create a [virtual environment](https://docs.python.org/3/library/venv.html) in the same folder as the requirements.txt file and activate the environment. The virtual environment is desirable, but not essential to run this web application.
 * Install all the required packages from requirements.txt on the terminal or command line using
 ```
@@ -43,6 +43,6 @@ http://127.0.0.1:677/
 
 * **[Sabina-Maria Mitroi](https://github.com/MitroiSabina)** - *Initial work*
 
-## Sneak Peak
+## Sneak Peek
 
 ![Web Application](FHIR/src/static/NHS.png)

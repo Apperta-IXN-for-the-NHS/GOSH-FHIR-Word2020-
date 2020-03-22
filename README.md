@@ -37,3 +37,5 @@ http://127.0.0.1:677/
 ## Authors
 
 * **[Sabina-Maria Mitroi](https://github.com/MitroiSabina)** - *Initial work*
+
+![Web Application](FHIR/src/static/NHS.png)
